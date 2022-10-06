@@ -22,7 +22,7 @@ int main(void)
 	for(i=0,b=1;i<n;b++,i++)
 	   {
 	   	printf("%.2f\t",z[i]);
-	   	if(b==5) {printf("\n");b=n-4;}
+	   	if(b==5) {printf("\n");b=b-4;}
 	   }
 	return 0;
 }
